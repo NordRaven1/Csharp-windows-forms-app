@@ -1,0 +1,27 @@
+﻿<Window x:Class="ExpensesProject.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:ExpensesProject"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="450" Width="800">
+    <Grid>
+        <Button Content="Прочитать данные из файла 1" HorizontalAlignment="Left" Name="ReadFile1Button" Margin="21,25,0,0" VerticalAlignment="Top" Width="168" Click="ReadFile1Button_Click"/>
+        <Button Content="Прочитать данные из файла 2" HorizontalAlignment="Left" Name="ReadFile2Button" Margin="214,25,0,0" VerticalAlignment="Top" Width="168" RenderTransformOrigin="0.471,-1.271" Click="ReadFile2Button_Click"/>
+        <ComboBox HorizontalAlignment="Left" VerticalAlignment="Top" Name="categoriesBox" Width="154" Margin="445,23,0,0">
+            <ComboBoxItem Content="Общая информация" IsSelected="True"/>
+            <ComboBoxItem Content="Продукты"/>
+            <ComboBoxItem Content="Квартплата"/>
+            <ComboBoxItem Content="Транспорт"/>
+            <ComboBoxItem Content="Медицина"/>
+            <ComboBoxItem Content="Развлечения"/>
+            <ComboBoxItem Content="Месяц 1"/>
+            <ComboBoxItem Content="Месяц 2"/>
+        </ComboBox>
+        <Button Content="Вывести информацию" HorizontalAlignment="Left" Name="WriteInfoButton" Margin="630,23,0,0" VerticalAlignment="Top" Width="154" Click="WriteInfoButton_Click"/>
+        <TextBox HorizontalAlignment="Left" Margin="21,71,0,0" Name="infoBox" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Height="309" Width="361"/>
+        <StackPanel HorizontalAlignment="Left" Height="230" Margin="445,150,0,0"  Name="chartExpense" VerticalAlignment="Top" Width="319"/>
+
+    </Grid>
+</Window>

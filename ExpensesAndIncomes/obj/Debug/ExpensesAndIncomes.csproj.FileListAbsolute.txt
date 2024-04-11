@@ -1,0 +1,5 @@
+C:\Users\nordr\source\repos\ExpensesProject\ExpensesAndIncomes\bin\Debug\ExpensesAndIncomes.dll
+C:\Users\nordr\source\repos\ExpensesProject\ExpensesAndIncomes\bin\Debug\ExpensesAndIncomes.pdb
+C:\Users\nordr\source\repos\ExpensesProject\ExpensesAndIncomes\obj\Debug\ExpensesAndIncomes.csproj.CoreCompileInputs.cache
+C:\Users\nordr\source\repos\ExpensesProject\ExpensesAndIncomes\obj\Debug\ExpensesAndIncomes.dll
+C:\Users\nordr\source\repos\ExpensesProject\ExpensesAndIncomes\obj\Debug\ExpensesAndIncomes.pdb
